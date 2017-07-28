@@ -3,10 +3,10 @@ An simple iOS application for making conversions: fahrenheit to/from celcius and
 
 Initial view
 
-![Screenshot](Screen Shot 2017-07-27 at 8.41.24 PM.png)
+![Screenshot](Initial_View.png)
 
-![Screenshot](Screen Shot 2017-07-27 at 8.41.42 PM.png)
+![Screenshot](Conversion_Options.png)
 
-![Screenshot](Screen Shot 2017-07-27 at 8.41.58 PM.png)
+![Screenshot](Fahrenheit_To_Celcius.png)
 
-![Screenshot](Screen Shot 2017-07-27 at 8.42.06 PM.png)
+![Screenshot](Kilometers_To_Miles.png)
