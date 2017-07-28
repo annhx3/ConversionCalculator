@@ -152,25 +152,25 @@ class ConversionsViewController: UIViewController {
     
     func conversionMapperForResultField() {
         if (f2c){
-            if currentInputText != ""{
+            if (currentInputText != "" && currentInputText != "-") {
                 currentResultText = String(format: "%.2f", conversions.convertFahrenheitToCelcius(Double(currentInputText)!))
                 resultField.text =  currentResultText + resultFieldUnit
             }
         }
         if (c2f){
-            if currentInputText != ""{
+            if (currentInputText != "" && currentInputText != "-") {
                 currentResultText = String(format: "%.2f", conversions.convertCelciusToFahrenheit(Double(currentInputText)!))
                 resultField.text =  currentResultText + resultFieldUnit
             }
         }
         if (m2k){
-            if currentInputText != ""{
+            if (currentInputText != "" && currentInputText != "-") {
                 currentResultText = String(format: "%.2f", conversions.convertMilesToKilometers(Double(currentInputText)!))
                 resultField.text = currentResultText + resultFieldUnit
             }
         }
         if (k2m){
-            if currentInputText != ""{
+            if (currentInputText != "" && currentInputText != "-") {
                 currentResultText = String(format: "%.2f", conversions.convertKilometersToMiles(Double(currentInputText)!))
                 resultField.text = currentResultText + resultFieldUnit
             }
