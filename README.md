@@ -1,7 +1,7 @@
 # ConversionCalculator
 An simple iOS application for making conversions: fahrenheit to/from celcius and miles to/from kilometers.  
 
-Initial view:
+Initial screen:
 
 ![Screenshot](Initial_View.png)
 
